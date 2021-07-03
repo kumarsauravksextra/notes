@@ -1,0 +1,38 @@
+.Net framework
+    - developed by Microsoft
+    - provides environment to run , debug , deploy code
+    - supports laguages like c# , Vb , Cobol , Perl etc.
+
+Main Components of .Net framework
+    - CLR : execution engine hai that runs code , provide services that makes development process easier.
+    - FCL(Framework Class Library) : has predefined methods and properties to implement common and complex function that can be used by .Net
+
+.Net framework work
+    - .Net supportive languages compile hota hai CIL(Common Intermidiate Language) me.
+    - Compiled code store hote hai assembly file me (has extension of .dll or .exe)
+    - jab application run krta hai CLR assembly file ko leta hai aur convert krta hai us CIL ko machine language me JIT compiler ke help se.
+    - ab machine code execute hoga specific arc. me jisme wo run kr rha hoga.
+
+CTS (Common Type System)
+    - follows a set of structured rules according to which data types should be declared and used in programming code.
+    - used to describe all data types going to be used in the application.
+    - helps in calling data type declared in one programming laguage by other programming language.
+
+CLS (Common Language Specification)
+    - helps developers to use Components that are inter language compatible with certain rules.
+
+JIT (Just in Time)
+    - is a compiler that coverts the intermidiate code into native code during execution.
+
+Differencee b/n int and Int32
+    - no difference , int is an alias name for Int32
+
+Difference b/n value type and reference type
+    - v/t hold actual data directly within the memory location . r/t contains the reference of the me location of the actual data. 
+    - v/t stores content in stacks. r/t in heap.
+    - assining v/t variables directly copies the value whereas r/t variables creates a second copy of reference.
+    - v/t examples : predefined data types , structures , enums 
+    - r/t examples : Classes , Objects , Arrays , Indexers , Interface 
+
+Difference b/n managed and unmanaged code.
+    - 
